@@ -1,0 +1,47 @@
+body{
+    text-align:center;
+   
+}
+header{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+.logo{
+    border: 1px solid;
+    border-radius: 70px;
+    background-color: darkkhaki;
+}
+center{
+    margin-top:30%;
+    margin-left: 14%;
+    border: 1px solid;
+    padding: 2%;
+    background-color: gray;
+}
+.logomini{
+    margin-left: 3%;
+    padding: 5%;
+  
+}
+.contenu{
+    background-color:bisque;
+}
+h3{
+    border: 1px solid transparent;
+    color:darkslategrey;
+    font-family: mv;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h1{
+    border: 3px solid;
+    text-align: center;
+    box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
+    max-width: 100%;
+
+}
