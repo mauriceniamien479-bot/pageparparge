@@ -1,10 +1,11 @@
-
-body{ 
+body{
     text-align: center;
+    background-image: url(../image/logo1.jfif);
+    min-width: 100%;
     overflow-x: hidden;
-   
-    
+ 
 }
+
 header{
     display: flex;
     align-items: flex-start;
@@ -26,41 +27,31 @@ header{
     padding: 2%;
     background-color: gray;
 }
-.contenu img{
-    margin-bottom: 15%;
-}
-.logomini{
-    margin-left: 3%;
-    padding: 5%;
-  
-}
-h3{
-    border: 1px solid transparent;
-    color:darkslategrey;
-    font-family: mv;
-    font-size: 40px;
-    text-decoration: underline;
-}
-h1{
-    border: 3px solid;
+.sup{
+    border: 1px solid;
     text-align: center;
     box-sizing: border-box;
     width: fit-content;
     margin: auto;
     max-width: 100%;
+    background-color: bisque;
+    color:darkslategrey
 
 }
-button{
-    text-align: center;
-    padding: 3%;
-    background-color: darkblue;
-    border-radius: 30px;
-    width: 200px;
-    margin-top: 5%;
+.menu{
+    margin-top:20%
 }
-a{
+.menu  a{
     text-decoration: none;
-    color: white;
-    font-size:30px ;
-    font-family: mv;
+    display:flex;
+    text-align: center;
+    justify: center;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 3%;
+    background-color: aqua;
+    position: center;
+    font-size: 50px;
+    color: gray;
+     
 }
