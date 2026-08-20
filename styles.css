@@ -39,7 +39,8 @@ header{
 
 }
 .menu{
-    margin-top:20%
+    margin-top:20%;
+    width: 90%;
 }
 .menu  a{
     text-decoration: none;
@@ -51,8 +52,8 @@ header{
     margin: 3%;
     background-color: aqua;
     position: center;
-    font-size: 1.1em;
+    font-size:40%;
     color: gray;
-     width: 90%;
+     
      box-sizing: border-box;
 }
