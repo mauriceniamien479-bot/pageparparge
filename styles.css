@@ -39,8 +39,9 @@ header{
 
 }
 .menu{
-    margin-top:20%;
+    margin-top:25%;
     width: 90%;
+    padding:4%
 }
 .menu  a{
     text-decoration: none;
