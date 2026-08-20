@@ -52,11 +52,11 @@ h1{
 }
 button{
     text-align: center;
-    padding: 3%;
+    padding: 7%;
     background-color: darkblue;
     border-radius: 30px;
-    width: 200px;
-    margin-top: 5%;
+    width: 230px;
+    margin-top: 10%;
 }
 a{
     text-decoration: none;
