@@ -5,6 +5,19 @@ body{
     overflow-x: hidden;
  
 }
+.mtn{
+     width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+}
 
 header{
     display: flex;
@@ -21,7 +34,7 @@ header{
     text-align: center;
 }
 .bvn{
-    margin-top:60%;
+    margin-top:30%;
     margin-left: 14%;
     border: 1px solid;
     padding: 2%;
@@ -40,6 +53,7 @@ header{
 }
 .menu{
     margin-top:20%;
+    
 }
 .menu  a{
     text-decoration: none;
@@ -49,11 +63,20 @@ header{
     border: 1px solid transparent;
     border-radius: 20px;
     margin: 5%;
-    padding:5%
     background-color: aqua;
     position: center;
-    font-size: 240%;
+    font-size:340% ;
     color: gray;
-     width: 100%;
+     width: 90%;
      box-sizing: border-box;
+    
 }
+.su{
+    font-size: 50px;
+    margin: 7%;
+}
+.su a{
+     text-decoration:none;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+      
