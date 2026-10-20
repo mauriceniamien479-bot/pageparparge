@@ -1,20 +1,59 @@
-body {
-    text-align: center;
-    background-color: aquamarine;
-    overflow-x: hidden;
-}
 
-.container {
+body{ 
+    text-align: center;
+    overflow-x: hidden;
+
+}
+.btn{
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
 
-.bienvenue {
-    border: 1px solid transparent;
+header{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 5%;
+
+}
+.logo{
+    border: 1px solid;
+    border-radius: 70px;
+    background-color: darkkhaki;
     text-align: center;
+}
+.bvn{
+    margin-top:30%;
+    margin-left: 14%;
+    border: 1px solid;
+    padding: 2%;
+    background-color: gray;
+}
+.contenu img{
+    margin-bottom: 15%;
+}
+.logomini{
+    margin-left: 3%;
+    padding: 5%;
+  
+}
+h3{
+    border: 1px solid transparent;
+    color:darkslategrey;
+    font-family: mv;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h1{
+    border: 3px solid;
+    text-align: center;
+    box-sizing: border-box;
+    width: fit-content;
     margin: auto;
-    margin-top: 20%;
+    max-width: 100%;
+
 }
 
 @media screen and (max-width:768px) {
@@ -24,27 +63,19 @@ body {
     }
 
 }
-
-.bienvenue a {
-    text-decoration: none;
-    border: 1px solid transparent;
-    margin-left: auto;
-    padding: 8%;
-    font-size: 400%;
-    color: orangered;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    text-shadow:
-        0px 1px 0px #ccc,
-        0px 2px 0px #bbb,
-        0px 3px 0px #aaa,
-        0px 4px 0px #999,
-        0px 5px 0px #888,
-        0px 6px 0px #777,
-        0px 7px 0px #666,
-        0px 8px 10px rgba(0, 0, 0, 0.5);
-    margin-top: 200px;
-    background-color: gray;
+button{
     text-align: center;
+    padding: 1%;
+    background-color: darkblue;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 5%;
+    
 
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size:30px ;
+    font-family: mv;
 }
